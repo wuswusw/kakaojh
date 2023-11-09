@@ -1,0 +1,613 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ----------- 리셋 코드 ----------- */
+
+body{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0px 32px 0px;
+}
+
+header>h1 {
+    width: 74px;
+    height: 37px;
+    background-image: url(https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F015%2F2023%2F05%2F04%2F0004840776_001_20230504090901027.jpg&type=sc960_832);
+    background-size: cover;
+}
+
+header>ul:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+    font-weight: bold;
+}
+
+header>ul:last-child {
+    display: flex;
+    justify-content: flex-end;
+    gap: 32px;
+}
+
+#glasses>button {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background-image: url(https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.pinimg.com%2F736x%2F50%2Ff9%2F82%2F50f9820c7f18a1d80002ff8c8df09d87.jpg&type=sc960_832);
+    background-size: cover;
+    border: none;
+}
+
+#earth>button {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background-image: url(https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.pinimg.com%2F736x%2F29%2F9a%2Fb9%2F299ab927fd83d3f69a23cc9aee86af8f.jpg&type=sc960_832);
+    background-size: cover;
+    border: none;
+}
+
+#moon>button {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background-image: url(https://search.pstatic.net/sunny/?src=https%3A%2F%2Fcdn-icons-png.flaticon.com%2F512%2F721%2F721247.png&type=sc960_832);
+    background-size: cover;
+    border: none;
+}
+
+/* ----- 메인 ------*/
+
+#calendar-box {
+    display: flex;
+    align-items: center;
+
+
+    padding: 88px 0px;
+    box-sizing: border-box;
+}
+
+#calendar {
+    width: 100px;
+    height: 100px;
+    background-image: url(https://search.pstatic.net/sunny/?src=https%3A%2F%2Fcdn-icons-png.flaticon.com%2F512%2F1086%2F1086439.png&type=sc960_832);
+    background-size: cover;
+}
+
+#calendar-box>h2 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 65px;
+
+    padding: 0px 8px 0px 24px;
+    box-sizing: border-box;
+}
+
+#calendar-box2 {
+    width: 28px;
+    height: 28px;
+    border-radius: 9999px;
+    background-color: red;
+
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 28px;
+    font-size: 15px;
+
+    margin-top: 24px;
+
+}
+
+/*-------뉴스--------*/
+
+#news-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bignews1 {
+    width: 630px;
+    height: 582px;
+    border-radius: 16px;
+    border: 1px solid rgb(187, 187, 187);
+    background-color: aquamarine;
+
+    margin-bottom: 32px;
+
+}
+
+.bignews1>div:first-child {
+    background-color: white;
+    border-radius: 16px 16px 0px 0px;
+
+    padding: 24px;
+}
+
+.bignews1>div>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#iconzip1 {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.speaker {
+    width: 36px;
+    height: 36px;
+    background-image: url(https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/6562f7bc017800001.png?type=thumb&opt=C72x72.fwebp);
+    background-size: cover;
+}
+
+.bubble1 {
+    width: 72px;
+    height: 36px;
+    background-image: url(https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzAyMTRfMjMw%2FMDAxNDg3MDczMTM5MDcx.cyLMZ-DmHO3kacc6vpYHNVoDJNAl2IqM_tPp0xbBtrQg.k3C0vgysMJZ1YxLodT6py5Ljwe_T2_7t3L8bsaXf8Qkg.PNG.gnsdldmswjd%2F0_c3cd2_3749a74d_XXL.png&type=sc960_832);
+    background-size: cover;
+
+    text-align: center;
+    line-height: 36px;
+
+    font-size: 12px;
+}
+
+.dday1 {
+    color: rgb(88, 88, 88);
+    font-size: 11px;
+}
+
+.newstitle {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 42px;
+
+    padding: 16px 0px 24px 0px;
+    box-sizing: border-box;
+
+    height: 124px;
+}
+
+.newstag {
+    font-size: 12px;
+    color: rgb(94, 94, 94);
+}
+
+#news-image1 {
+    width: 100%;
+    height: 362px;
+    border-radius: 0px 0px 16px 16px;
+    background-image: url(https://t1.kakaocdn.net/thumb/C630x354.fwebp.q100/?fname=https%3A%2F%2Ft1.kakaocdn.net%2Fkakaocorp%2Fkakaocorp%2Fadmin%2Fnews%2Fb117ed3c018b00001.png);
+}
+
+/* ---------큰뉴스 2----------  */
+.star {
+    width: 36px;
+    height: 36px;
+    background-image: url(https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/category/1cf6a77b018800001.png?type=thumb&opt=C72x72.fwebp);
+    background-size: cover;
+}
+
+
+#news-image2 {
+    width: 100%;
+    height: 362px;
+    border-radius: 0px 0px 16px 16px;
+    background-image: url(https://t1.kakaocdn.net/thumb/C630x354.fwebp.q100/?fname=https%3A%2F%2Ft1.kakaocdn.net%2Fkakaocorp%2Fkakaocorp%2Fadmin%2Fhighlight%2F04698903018b00001.jpg);
+}
+
+
+/*------ 작은 뉴스-------*/
+
+#smnews {
+    display: flex;
+}
+
+.smallnews {
+    width: 297px;
+    height: 192px;
+    border-radius: 16px;
+    border: 1px solid rgb(187, 187, 187);
+    padding: 16px;
+    box-sizing: border-box;
+
+}
+
+.mediumnews {
+    width: 297px;
+    height: 363px;
+    border-radius: 16px;
+    border: 1px solid rgb(187, 187, 187);
+
+
+}
+
+#smnews>.smnews11:first-child {
+    padding: 0px 36px 0px 0px;
+}
+
+.smnews11 {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.heart {
+    width: 36px;
+    height: 36px;
+    background-image: url(https://www.kakaocorp.com/page/ico_responsible.png);
+    background-size: cover;
+}
+
+.green {
+    width: 36px;
+    height: 36px;
+    background-image: url(https://www.kakaocorp.com/page/ico_activegreen.png);
+    background-size: cover;
+}
+
+.kaicon {
+    width: 36px;
+    height: 36px;
+    background-image: url(https://www.kakaocorp.com/page/ico_talktips.png);
+    background-size: cover;
+}
+
+.service {
+    width: 36px;
+    height: 36px;
+    background-image: url(https://www.kakaocorp.com/page/ico_customer.png);
+    background-size: cover;
+}
+
+.sntitle {
+    font-size: 13px;
+}
+
+.iconzip2 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.smallmt {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+    margin: 16px 0px 32px 0px;
+}
+
+.mititle {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 28px;
+    margin: 16px 0px 32px 0px;
+
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+#minews-image1 {
+    width: 100%;
+    height: 179px;
+    border-radius: 0px 0px 16px 16px;
+
+    background-image: url(https://t1.kakaocdn.net/thumb/C630x354.fwebp.q100/?fname=https%3A%2F%2Ft1.kakaocdn.net%2Fkakaocorp%2Fkakaocorp%2Fadmin%2Fnews%2Fb1d066f3018b00001.jpg);
+    background-size: contain;
+
+}
+
+#minews-image2 {
+    width: 100%;
+    height: 179px;
+    border-radius: 0px 0px 16px 16px;
+
+    background-image: url(https://t1.kakaocdn.net/thumb/C630x354.fwebp.q100/?fname=https%3A%2F%2Ft1.kakaocdn.net%2Fkakaocorp%2Fkakaocorp%2Fadmin%2Fnews%2Fa7520ab9018b00001.jpeg);
+    background-size: contain;
+
+}
+
+
+.mediumnews>div {
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+/*-------기술과 사람 어쩌구--------*/
+
+#nemobox {
+    width: 100%;
+    height: 540px;
+
+    border-radius: 16px;
+    border: 1px solid rgb(187, 187, 187);
+
+    text-align: center;
+
+    padding: 64px;
+    box-sizing: border-box;
+
+    margin-bottom: 32px;
+}
+
+#nemobox>p:first-child {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+#nemobox>p:nth-child(2) {
+    width: 175px;
+    height: 41px;
+    border-radius: 32px;
+    background-color: black;
+
+    color: white;
+    font-size: 14px;
+
+    text-align: center;
+    line-height: 41px;
+
+    margin: 40px auto 64px auto;
+}
+
+#nemobox>p:last-child {
+    width: 900px;
+    height: 239px;
+    background-image: url(https://www.kakaocorp.com/page/bg_home_culture_210325.png);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+/*-------구독 어쩌구-------*/
+
+#nemobox2{
+    width: 100%;
+    height: 115px;
+    border-radius: 16px;
+    border: 1px solid rgb(187, 187, 187);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 32px;
+    box-sizing: border-box;
+
+    margin-bottom: 32px;
+
+}
+
+#nemobox2 > h3{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#nemobox2 > div{
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+#nemobox2 > div >p{
+    width: 60px;
+    height: 60px;
+    border-radius: 9999px;
+    background-color: rgb(219, 219, 213);
+}
+
+#nemobox2 > div >p{
+    width: 60px;
+    height: 60px;
+    border-radius: 9999px;
+    background-color: rgb(219, 219, 213);
+
+    text-align: center;
+    line-height: 60px;
+}
+
+/*--------푸터---------*/
+
+footer{
+    padding-top: 32px;
+    border-top: 1px solid #ebebeb;
+}
+
+#footer1{
+    display: flex;
+    justify-content: space-between;
+
+    line-height: 28px;
+}
+
+.footer-title{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#footer1 > div > p{
+    font-size: 14px;
+    color: rgb(114, 114, 114);
+
+}
+
+#footer2{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 100px 0px 32px 0px;
+}
+
+
+#footer2 > div > ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+
+#footer2 > div > ul > li{
+    font-size: 12px;
+    color: rgb(114, 114, 114);
+}
+
+#footer2 > div:last-child{
+    width: 207px;
+    height: 40px;
+    border-radius: 32px;
+    background-color:rgb(219, 219, 213);
+
+    display: flex;
+    justify-content: space-around;
+
+    text-align: center;
+    line-height: 40px;
+
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
